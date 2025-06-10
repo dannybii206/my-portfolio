@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Landing Page</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -15,18 +18,18 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <div class="hero">
+    <div class="hero" data-aos="fade-down">
       <h2>Hello, I'm Danny</h2>
       <p>I build simple and beautiful websites.</p>
     </div>
   </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I'm a beginner web developer building awesome projects.</p>
   </section>
 
-  <section id="contact">
+  <section id="contact" data-aos="zoom-in">
     <h2>Contact Me</h2>
     <form action="https://formspree.io/f/xanjedvr" method="POST">
       <label for="name">Name</label><br />
@@ -42,8 +45,14 @@
     </form>
   </section>
 
-  <footer>
+  <footer data-aos="fade-up">
     <p>&copy; 2025 MyPortfolio</p>
   </footer>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
