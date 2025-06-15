@@ -4,10 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- AOS Animation CSS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />  <!-- AOS Animation CSS -->  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -15,11 +12,66 @@
       <h1>MyPortfolio</h1>
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero" data-aos="fade-down">
       <h2> I'm Danny</h2>
+      <p>I build simple and beautiful websites.</p>
+    </div>
+  </header>  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Danny — a beginner web developer with real hands-on experience building clean, modern, and responsive websites.
+    </p>
+    <p>
+      I work with HTML, CSS, and JavaScript to create user-friendly layouts, mobile-friendly pages, and add subtle animations that bring pages to life.
+    </p>
+    <p>
+      I enjoy solving problems, testing ideas on platforms like CodePen, and turning simple concepts into working websites. I'm focused on becoming a junior developer and continuing to grow into a full-stack role.
+    </p>
+    <p>
+      💡 <strong>Technologies I use:</strong>
+      <ul>
+        <li>✔️ HTML, CSS & JavaScript</li>
+        <li>✔️ Responsive design techniques</li>
+        <li>✔️ Git & GitHub</li>
+        <li>✔️ AOS animations and visual polish</li>
+      </ul>
+    </p>
+    <p>
+      🚀 Outside of coding, I explore design trends, follow tutorials, and improve my skills every day.
+    </p>
+    <p>
+      🔗 View more of my projects on <a href="https://github.com/dannybii206" target="_blank">GitHub</a>.
+    </p>
+  </section>  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>📝 To-Do List App</h3>
+      <p>A simple to-do list web app built with HTML, CSS, and JavaScript. It includes theme toggling, filtering, and task editing features.</p>
+      <a href="https://codepen.io/dannybii206/pen/ByNVOzr" target="_blank">🔗 View Project</a>
+    </div>
+  </section>  <section id="contact" data-aos="zoom-in">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xanjedvr" method="POST">
+      <label for="name">Name</label><br />
+      <input type="text" id="name" name="name" placeholder="Your name" required><br /><br /><label for="email">Email</label><br />
+  <input type="email" id="email" name="_replyto" placeholder="Your email" required><br /><br />
+
+  <label for="message">Message</label><br />
+  <textarea id="message" name="message" placeholder="Your message here..." rows="5" required></textarea><br /><br />
+
+  <button type="submit">Send Message</button>
+</form>
+
+  </section>  <footer data-aos="fade-up">
+    <p>&copy; 2025 MyPortfolio</p>
+  </footer>  <!-- AOS Animation JS -->  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
+    AOS.init();
+  </script></body>
+</html>
       <p>I build simple and beautiful websites.</p>
     </div>
   </header>
