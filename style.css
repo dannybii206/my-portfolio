@@ -49,6 +49,30 @@ section {
   padding: 2rem;
 }
 
+/* === Project Section === */
+#projects {
+  background: #f0f0f0;
+  padding: 2rem;
+  border-top: 4px solid #0077cc;
+}
+
+.project-card {
+  background: yellow;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
+.project-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  color: blue;
+  text-decoration: underline;
+}
+
 /* === Contact Form Styling === */
 form {
   display: flex;
